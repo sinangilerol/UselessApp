@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lignanislore.uselessApp.Controller">
+   <children>
+      <RadioButton fx:id="btn" layoutX="288.0" layoutY="292.0" mnemonicParsing="false" onAction="#action" prefHeight="22.0" prefWidth="49.0" text="OFF" />
+      <Label fx:id="label" alignment="CENTER" layoutX="191.0" layoutY="389.0" prefHeight="112.0" prefWidth="218.0" text="">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
